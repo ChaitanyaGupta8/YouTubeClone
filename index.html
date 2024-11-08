@@ -1,0 +1,298 @@
+<!--Youtube Clone-->
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>YouTube</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+        <link rel="icon" href="icons/youtube.png">
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/video.css">
+        <link rel="stylesheet" href="styles/sidebar.css">
+    </head>
+
+    <body>
+        <header class="header">
+            <div class="left-section">
+                <img class="hamburger-menu" src="icons/hamburger-menu.svg" alt="">
+                <img class="youtube-logo" src="icons/youtube-logo.svg" alt="">
+            </div>
+            <div class="middle-section">
+                <input  class="search-bar"type="text" placeholder="Search">
+                <button class="search-button">
+                    <img class="search-icon" src="icons/search.svg" alt="">
+                    <div class="tooltip">Search</div>
+                </button>
+                
+                <button class="voice-search-button">
+                    <img class="voice-search-icon" src="icons/voice-search-icon.svg" alt="">
+                    <div class="tooltip">Search with your voice</div>
+                </button>
+            </div>
+            <div class="right-section">
+                <div class="upload-icon-container">
+                    <img class="upload-icon" src="icons/upload.svg" alt="">
+                    <div class="tooltip">Create</div>
+                </div>
+                <img class="youtube-apps-icon" src="icons/youtube-apps.svg" alt="">
+                <div class="notifications-icon-container">
+                    <img class="notifications-icon" src="icons/notifications.svg" alt="">
+                    <div class="notifications-count">3</div>
+                </div>
+                
+                <img class="current-user-picture" src="channel-pictures/mychannel_.jpg" alt="">
+            </div> 
+        </header>
+    
+        <nav class="sidebar">
+            <div class="sidebar-link">
+                <img src="icons/home.svg" alt="">
+                <div>Home</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/explore.svg" alt="">
+                <div>Explore</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/subscriptions.svg" alt="">
+                <div>Subscriptions</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/originals.svg" alt="">
+                <div>Originals</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/youtube-music.svg" alt="">
+                <div>Youtube Music</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/library.svg" alt="">
+                <Div>Library</Div>
+            </div>
+
+        </nav>
+    <main>
+        <section class="video-grid">
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail_1.webp" alt="" >
+                    <div class="video-time">1:01:51</div>
+                </div>
+        
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel-pictures/channel_1.jpg" alt="">     
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Lecture 19 : C++ STL in 1 video (Re - Uploaded)
+                            </p>
+                            <p class="video-author">
+                            Code Help -byBabbar &#10003;
+                            </p>
+                            <p class="video-stats">
+                            833K Views &middot; 2 years ago
+                            </p>
+                    </div>
+                
+                </div>
+        
+            </div>
+        
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail_2.webp" alt="" >
+                    <div class="video-time">23:42</div>
+                </div>
+        
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel-pictures/channel_2.jpg" alt="">     
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            8 Science Theses that shook the world
+                            </p>
+                            <p class="video-author">
+                            Tibees&#10003;
+                            </p>
+                            <p class="video-stats">
+                            139K views &middot 2 weeks ago
+                            </p>
+                    </div>
+                
+                </div>
+        
+            </div>
+        
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail_3.webp" alt="" >
+                    <div class="video-time">1:48:39</div>
+                </div>
+        
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel-pictures/channel_3.jpg" alt="">     
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Finanacial CRISIS 2008 The Inside Story You Weren't Told
+                            </p>
+                            <p class="video-author">
+                            TradingCoachUK 
+                            </p>
+                            <p class="video-stats">
+                            635K Views &middot; 1 year ago
+                            </p>
+                    </div>
+                
+                </div>
+        
+            </div>
+        
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail_4.webp" alt="" >
+                    <div class="video-time">3:57</div>
+                </div>
+        
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel-pictures/channel_4.jpg" alt="">     
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Learn CSS ::before and ::after in 4 minutes
+                            </p>
+                            <p class="video-author">
+                            Coding2GO
+                            </p>
+                            <p class="video-stats">
+                            182K views &middot 4 months ago
+                            </p>
+                    </div>
+                
+                </div>
+        
+            </div>
+        
+        
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail_5.webp" alt="" >
+                    <div class="video-time">3:57</div>
+                </div>
+        
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel-pictures/channel_5.jpg" alt="">     
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Mathematics for Machine Learning Tutorial (3 Complete Courses in 1 video)
+                            </p>
+                            <p class="video-author">
+                            My Lesson
+                            </p>
+                            <p class="video-stats">
+                            376K Views &middot; 3 years ago
+                            </p>
+                    </div>
+                
+                </div>
+        
+            </div>
+        
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail_6.webp" alt="" >
+                    <div class="video-time">1:00</div>
+                </div>
+        
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel-pictures/channel_6.jpg" alt="">     
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Squid Game: Season 2: | Special Teaser | Netflix
+                            </p>
+                            <p class="video-author">
+                            Netflix &#10003;
+                            </p>
+                            <p class="video-stats">
+                            4.5M views &middot 1 month ago
+                            </p>
+                    </div>
+                
+                </div>
+        
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail_7.webp" alt="" >
+                    <div class="video-time">9:12</div>
+                </div>
+        
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel-pictures/channel_7.jpg" alt="">     
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            What do investment bankers actually do ?
+                            </p>
+                            <p class="video-author">
+                            Good Work &#10003;
+                            </p>
+                            <p class="video-stats">
+                            1.9M Views &middot; 1 year ago
+                            </p>
+                    </div>
+                
+                </div>
+        
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail_8.webp" alt="" >
+                    <div class="video-time">3:33</div>
+                </div>
+        
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel-pictures/channel_8.jpg" alt="">     
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Badshah X Arijit Singh - (Live Video) | Ek THA RAJA
+                            </p>
+                            <p class="video-author">
+                            Badshah &#10003;
+                            </p>
+                            <p class="video-stats">
+                            69M Views &middot; 6 months ago
+                            </p>
+                    </div>
+                
+                </div>
+        
+            </div>
+    
+        </section>
+        
+    </main>
+    
+
+    </body>
+
+</html>
